@@ -1,0 +1,113 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #f1f1f1;
+}
+.logo_google {
+    width: 20%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.input {
+    width: 650px;
+    background-color: #f1f1f1;
+    height: 60px;
+    display: inline-block;
+}
+.input_box {
+    margin-left: 250px;
+    margin-top: -50;
+    border: 1px
+}
+.form-group {
+    padding-top: 16px;
+    display: inline-flex;
+}
+.outer-containet {
+    padding-top: 40px;
+    margin-left: 200px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.inner-container {
+    width: 800px;
+    text-align: initial;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.game_pic {
+    padding-top: 30px;
+    padding-left: 40px;
+    border-radius: 25px;
+    height: 200px;
+    display: inline-block;
+}
+.info-box-top {
+    height: 250px;
+    width: 550px;
+    padding-bottom: 59px;
+    vertical-align: top;
+    display: inline-block;
+}
+.info-container .badges {
+    float: right;
+}
+.btn-primary {
+    display: inline-flex;
+    height: 33px;
+}
+img {
+    vertical-align: middle;
+}
+.badge-title {
+    color: #8d8d8d;
+}
+.badge {
+    background-color: transparent;
+}
+.id-app-title {
+    color: hsl(0, 0%, 13%);
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Hind', sans-serif;
+}
+.document-title {
+    margin-top: 0px;
+}
+.document-subtitle {
+    float: right;
+}
+.navbar-brand {
+    background-color: #689f38;
+}
+.navbar-inverse .navbar-brand {
+    color: hsl(0, 0%, 100%);
+}
+.android_pic {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABnUlEQVR4Ae3UgUcDUQDH8U2pQCA0I1T/QUFBEKBAf0koUgZKKAkdIEgyGYAEICABNdq0YKsMQGzb1Pz64ph0eLfdXc+8Lx+Y87yf3ZYa0lwuSVMYjeKgczxjPsHLr6CJuygOe4DoNqHLj6EM0n0UB66q13oCA/bUazWqQwsgvWAsxsvPogVSIcqDZ9CAaDv4GS1iE1d4xDtavg88IY8tLCMdcMYNRA3MxPXVfmLa/yyDfbwqfG84xZx/1oZ67cbx9Y6jAtE1TtDU4H3jEjWIKhiP6x1dU/ytxfkPcaj4O4zj4ml4Si4P6aguP4ILJd8FRqIYcKT/62jQyy+hq999IYesL+d/Zp75OV0s9Xv5CZT0t1zAszmFz/ScEib6GXCs4LIBz2ZhXvhzjsNePoOORQM6yIQZcCA/C14h+e2HGVBDr+R/xEHVTC+/IHtbMBmwI3vbMRmQl73lTQYUZW9FkwF12VvdZEBb9tZO2Z5Lljf0A9wAN8ANcAPcADegKnurmgzwZG9nJgMmUZZ9lTGZItMRniWvUxVe8OVdLtcPysP4ogGZhg0AAAAASUVORK5CYII=);
+}
+.navbar-brand {
+    text-decoration-color: white;
+}
+.navbar-inverse {
+    margin-top: 100px;
+}
+.info-container {
+    margin-top: 50px;
+}
+.navbar-inverse {
+    background-color: none;
+}
+.active {
+    background-color: white;
+    text-decoration-color: black;
+}
+.navbar-inverse {
+    border-color: transparent;
+    background-color: transparent
+}
+.active {
+    text-decoration-color: black;
+    background-color: white;
+}
