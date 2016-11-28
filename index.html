@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
@@ -28,16 +28,8 @@
                 <ul class="nav navbar-nav">
                     <li class="active">
                         <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn">Категории<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-                            </button>
-                            <div id="myDropdown" class="dropdown-content">
-                                <a href="#">Автомобили и транспорт</a>
-                                <a href="#">Бизнес</a>
-                                <a href="#">Видеоплееры и редакторы</a>
-                                <a href="#">Еда и напитки</a>
-                                <a href="#">Жилье и дом</a>
-                                <a href="#">Здоровье и фитнес</a>
-                            </div>
+                            <button onclick="myFunction()" class="dropbtn">Категории<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> </button>
+                            <div id="myDropdown" class="dropdown-content"> <a href="#">Автомобили и транспорт</a> <a href="#">Бизнес</a> <a href="#">Видеоплееры и редакторы</a> <a href="#">Еда и напитки</a> <a href="#">Жилье и дом</a> <a href="#">Здоровье и фитнес</a> </div>
                         </div>
                     </li>
                     <li><a class="category" href="#">Главная</a></li>
@@ -49,8 +41,7 @@
         <div class="outer-containet">
             <div class="inner-container">
                 <div class="info-container">
-                    <div class="game_pic">
-                        <img src="images/2016-11-24%20%D0%B2%2014.08.56.png" style="width: 180px;     border-radius: 15px">
+                    <div class="game_pic"> <img src="images/2016-11-24%20%D0%B2%2014.08.56.png" style="width: 180px;     border-radius: 15px">
                         <div class="info-box-top">
                             <div class="badges"> <span class="badge">
                                 <img src="https://lh3.ggpht.com/llUbVmqTAfi_3v5cEKyp9yedgtXukkk18QzrEB0C_ykleML1wFIsRKRFw78Aqhp2cikQduQ66pUSX7iy=w14-rw" aria-hidden="true">
@@ -64,8 +55,28 @@
                                     <a class="document-subtitle info-star-rating id-no-nav"><img src="./images/YHPxaG4XE2ENgOtWg3F5ghQdnkIJAVuiHhdTU16BET5k0NlgpYTgISs4ioWYNBLN5w4wNyUYBSdEZ1B1jzecp5l+sttPkFJkhGLPkKEg1GwgLtb8jX8hwCcZ3b69AQddC9D8Z5Z9ApJWqjqw7GOdvotyDqa4I+1xiDuSaYjwVWmmBlBBJboxcSpVa9x7m1KbhXNm3QCW15bZTne1MwRsIuyFZPMe8Li03BAj1QhJYdM0sUca4wBd9bDsQq.png" style="width:15px;"> </a>
                                 </div>
                                 <div class="left-info">
-                                    <a href="#"><p class="name_of_author">Killo</p></a>
-                                    <a href="#"><p class="type_of_game">Аркады</p></a>
+                                    <a href="#">
+                                        <p class="name_of_author">Killo</p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="type_of_game">Аркады</p>
+                                    </a>
+                                </div>
+                                <div class="middle_info_age">
+                                    <div class="img_of_age"></div>
+                                    <p class="age">3+</p>
+                                </div>
+                                <div class="bottom_info">
+                                    <p class="status_content">У вас есть платный контет.</p>
+                                    <div class="no_devices_img"></div>
+                                    <p class="compability_status">У вас нет устройств.</p>
+                                </div>
+                                <div class="delails_actions">
+                                    <div class="details_action_right">
+                                        <div class="img_of_bookmark"></div>
+                                        <p class="add_to_wishlist">Добавить в список желаний</p>
+                                        <button type="button" class="btn btn-sucess btn-sm active">Установить</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -74,17 +85,16 @@
             </div>
         </div>
     </div>
-
+    
     <script src="jquery-3.1.1.js"></script>
     <script>
-        $(function() {});
-
+        $(function () {});
     </script>
     <script>
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
-        window.onclick = function(event) {
+        window.onclick = function (event) {
             if (!event.target.matches('.dropbtn')) {
                 var dropdowns = document.getElementsByClassName("dropdown-content");
                 var i;
@@ -96,6 +106,5 @@
                 }
             }
         }
-
     </script>
 </body>
