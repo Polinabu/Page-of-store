@@ -3,7 +3,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Website</title>
     <link rel="stylesheet" href="style/bootstrap.css">
-    <link rel="stylesheet" href="style/style.css"> </head>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/javascript" href="js/jquery-3.1.1.min.js"> </head>
 
 <body>
     <div class="main">
@@ -82,16 +85,53 @@
                         </div>
                     </div>
                 </div>
+                <div class="carousel_group">
+                    <div class="carousel_img1"></div>
+                    <div class="carousel_img2"></div>
+                    <div class="carousel_img3"></div>
+                    <div class="carousel_img4"></div>
+                    <div class="carousel_img5"></div>
+                </div>
+                <div class="details_bottom_section">
+                    <div class="details_of_game">
+                        <p class="game_det">УСКОРЯЙСЯ так быстро, как только сможешь!</p>
+                        <p class="game_det>">УВОРАЧИВАЙСЯ от приближающихся поездов!</p>
+                        <p>Помоги Джейку, Трики и Фреш сбежать от сердитого Инспектора и его пса.</p>
+                    </div>
+                </div>
+                <div class="end_of_bottom_section">
+                    <p class="more_details_of_game">Подробнее</p>
+                    <div class="steps_for_game">★ Катайся на поездах вместе со своей крутой командой!</div>
+                    <div class="steps_for_game">★ Красочная и живая HD-графика!</div>
+                    <div class="steps_for_game">★ Серфинг на ховербордах!</div>
+                    <div class="steps_for_game">★ Мощный реактивный ранец, приводимый в действие краской!</div>
+                    <div class="steps_for_game">★ Молниеносно быстрая акробатика с использованием смахиваний!</div>
+                    <div class="steps_for_game">★ Бросай вызов своим друзьям и помогай им!</div>
+                    <p class="last_line_of_end_section">Универсальное приложение с HD-графикой, оптимизированной для дисплея Retina.</p>
+                </div>
+                <hr class="horizontal_line_of_inner">
+                <div class="feedback_reaction"></div>
+                <hr class="horizontal_line_of_inner">
+                <div class="new_additions">
+                    <p>ЧТО НОВОГО</p>
+                    <p>1.64.1:</p>
+                    <p>Исправления ошибок и оптимизация</p>
+                    <p>1.64.0:</p>
+                    <p>★ The Subway Surfers отмечает новогодние праздники в снегу</p>
+                    <p>★ Исследуйте красивые ледяные пещеры и путешествуйте вдоль очаровательных -фабрик игрушек.</p>
+                    <p>★ Познакомьтесь с полярным исследователем Маlik и откройте его наряд Tusk Outfit</p>
+                    <p>★ Отдыхайте в метро с новым нарядом Ice Outfit для Elf Tricky</p>
+                    <p>★ Мчитесь по сугробам на новом покрытом льдом ховерборде Glacier</p>
+                </div>
             </div>
+
         </div>
     </div>
 
     <script src="jquery-3.1.1.js"></script>
-    <script>
-        $(function() {});
+    <script type="text/javascript" src="slick/slick/slick.min.js"></script>
 
-    </script>
-    <script>
+    <script type="text/javascript">
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
@@ -109,4 +149,27 @@
         }
 
     </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.carousel_group').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".end_of_bottom_section").click(function() {
+                $(".steps_for_game").slideToggle("slow");
+            });
+        });
+
+    </script>
+
 </body>
