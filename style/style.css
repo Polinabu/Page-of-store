@@ -25,7 +25,7 @@
 }
 .outer-containet {
     padding-top: 40px;
-    margin-left: 200px;
+    margin-left: 185px;
     text-align: center;
     background-color: #f1f1f1;
 }
@@ -80,12 +80,10 @@ img {
 }
 .navbar-brand {
     background-color: #689f38;
+    padding: 0;
 }
 .navbar-inverse .navbar-brand {
     color: hsl(0, 0%, 100%);
-}
-.android_pic {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABnUlEQVR4Ae3UgUcDUQDH8U2pQCA0I1T/QUFBEKBAf0koUgZKKAkdIEgyGYAEICABNdq0YKsMQGzb1Pz64ph0eLfdXc+8Lx+Y87yf3ZYa0lwuSVMYjeKgczxjPsHLr6CJuygOe4DoNqHLj6EM0n0UB66q13oCA/bUazWqQwsgvWAsxsvPogVSIcqDZ9CAaDv4GS1iE1d4xDtavg88IY8tLCMdcMYNRA3MxPXVfmLa/yyDfbwqfG84xZx/1oZ67cbx9Y6jAtE1TtDU4H3jEjWIKhiP6x1dU/ytxfkPcaj4O4zj4ml4Si4P6aguP4ILJd8FRqIYcKT/62jQyy+hq999IYesL+d/Zp75OV0s9Xv5CZT0t1zAszmFz/ScEib6GXCs4LIBz2ZhXvhzjsNePoOORQM6yIQZcCA/C14h+e2HGVBDr+R/xEHVTC+/IHtbMBmwI3vbMRmQl73lTQYUZW9FkwF12VvdZEBb9tZO2Z5Lljf0A9wAN8ANcAPcADegKnurmgzwZG9nJgMmUZZ9lTGZItMRniWvUxVe8OVdLtcPysP4ogGZhg0AAAAASUVORK5CYII=);
 }
 .navbar-brand {
     text-decoration-color: white;
@@ -105,9 +103,89 @@ img {
 }
 .navbar-inverse {
     border-color: transparent;
-    background-color: transparent
+    background-color: transparent;
 }
 .active {
     text-decoration-color: black;
     background-color: white;
+}
+
+/*Dropdown*/
+
+.dropbtn {
+    background-color: white;
+    color: grey;
+    font-family: 'Hind', sans-serif;
+    border: none;
+    padding: 15px 15px;
+}
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #f1f1f1;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.show {
+    display: block;
+}
+.andriod_pic {
+    display: inline-block;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABnUlEQVR4Ae3UgUcDUQDH8U2pQCA0I1T/QUFBEKBAf0koUgZKKAkdIEgyGYAEICABNdq0YKsMQGzb1Pz64ph0eLfdXc+8Lx+Y87yf3ZYa0lwuSVMYjeKgczxjPsHLr6CJuygOe4DoNqHLj6EM0n0UB66q13oCA/bUazWqQwsgvWAsxsvPogVSIcqDZ9CAaDv4GS1iE1d4xDtavg88IY8tLCMdcMYNRA3MxPXVfmLa/yyDfbwqfG84xZx/1oZ67cbx9Y6jAtE1TtDU4H3jEjWIKhiP6x1dU/ytxfkPcaj4O4zj4ml4Si4P6aguP4ILJd8FRqIYcKT/62jQyy+hq999IYesL+d/Zp75OV0s9Xv5CZT0t1zAszmFz/ScEib6GXCs4LIBz2ZhXvhzjsNePoOORQM6yIQZcCA/C14h+e2HGVBDr+R/xEHVTC+/IHtbMBmwI3vbMRmQl73lTQYUZW9FkwF12VvdZEBb9tZO2Z5Lljf0A9wAN8ANcAPcADegKnurmgzwZG9nJgMmUZZ9lTGZItMRniWvUxVe8OVdLtcPysP4ogGZhg0AAAAASUVORK5CYII=);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.navbar-brand {
+    padding: 7px;
+    margin: auto;
+}
+.navbar-brand {
+    display: inline-block;
+}
+.menu_title {
+    display: inline-block;
+    vertical-align: super;
+}
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+.category:hover {
+    background-color: #f1f1f1 !important;
+    color: #808080 !important;
+}
+
+.name_of_author {
+    display: inline-block;
+}
+
+.type_of_game {
+    display: inline-block;
+}
+/*
+.name_of_author, .type_of_game {
+    color: #808080;
+    
+}
+*/
+.left-info {
+    width: 200px;
+    padding-left: 23px;
 }
