@@ -2431,6 +2431,7 @@ table th[class*="col-"] {
 .table > tfoot > tr.danger > th {
   background-color: #f2dede;
 }
+
 .table-hover > tbody > tr > td.danger:hover,
 .table-hover > tbody > tr > th.danger:hover,
 .table-hover > tbody > tr.danger:hover > td,

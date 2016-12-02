@@ -26,7 +26,7 @@
 .outer-containet {
     padding-top: 40px;
     margin-left: 186px;
-    height: 2000px;
+    height: 1900px;
     text-align: center;
     background-color: #f1f1f1;
 }
@@ -379,7 +379,6 @@ img {
     height: 300px;
     background-size: cover;
 }
-
 .new_additions {
     margin-top: 5px;
     margin-left: 50px;
@@ -389,4 +388,99 @@ img {
     font-size: 13px;
     line-height: 1.5;
     font-weight: 200;
+}
+.have_fun_animation {
+    display: none;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
+    margin-top: 10px;
+}
+.btn-click {
+    text-decoration: line-through;
+    font-size: 22px;
+    background-color: #faff04;
+    color: #007bff;
+    margin-top: 15px;
+}
+.have_fun {
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.btn-info:focus {
+    background-color: #007bff;
+    border-color: none;
+}
+.btn-info:hover {
+    color: #faff04;
+    background-color: #007bff;
+    border-color: none;
+    text-decoration: underline;
+}
+.btn-info {
+    border-color: none !important;
+}
+.info_about_renewal {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-left: 50px;
+    width: 500px;
+}
+thead {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+th {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+}
+td {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 10px;
+}
+.table > thead > tr > th {
+    border-bottom: none;
+    border-top: none;
+}
+.green_link {
+    color: #689f38;
+}
+.green_link:hover {
+    color: #689f38;
+}
+.table_information {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.table > tbody > tr > td {
+    padding: 0px;
+    border-top: none;
+}
+.table > thead > tr > th {
+    padding: 0px;
+}
+.developer_info {
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 0.8;
+    font-size: 13px;
+}
+.develober_name {
+    font-weight: 600;
+}
+.glyphicon-search {
+    padding: 0px;
+}
+.glyphicon {
+    top: 0px;
+}
+.btn-primary {
+    background-color: #4387fd;
+    border: none;
+    border-radius: 0;
+}
+.form-control {
+    border-radius: 0px;
 }

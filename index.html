@@ -110,7 +110,10 @@
                     <p class="last_line_of_end_section">Универсальное приложение с HD-графикой, оптимизированной для дисплея Retina.</p>
                 </div>
                 <hr class="horizontal_line_of_inner">
-                <div class="feedback_reaction"></div>
+                <div class="have_fun">
+                    <p class="have_fun_animation">Have fun!</p>
+                    <button type="button" class="btn btn-info btn-click">Don't click!</button>
+                </div>
                 <hr class="horizontal_line_of_inner">
                 <div class="new_additions">
                     <p>ЧТО НОВОГО</p>
@@ -123,53 +126,118 @@
                     <p>★ Отдыхайте в метро с новым нарядом Ice Outfit для Elf Tricky</p>
                     <p>★ Мчитесь по сугробам на новом покрытом льдом ховерборде Glacier</p>
                 </div>
+                <hr class="horizontal_line_of_inner">
+                <p class="table_information">Дополнительная информация</p>
+                <div class="info_about_renewal">
+                    <table class="table table_end_of_inner_container_first_row">
+                        <thead>
+                            <tr>
+                                <th>Обновлено</th>
+                                <th>Количество установок</th>
+                                <th>Текущая версия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1 декабря 2016 г.</td>
+                                <td>500 000 000–1 000 000 000</td>
+                                <td>1.64.1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table_end_of_inner_container_second_row">
+                        <thead>
+                            <tr>
+                                <th>Требуемая версия Android</th>
+                                <th>Возрастные ограничения</th>
+                                <th>Интерактивные элементы</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>4.0 или более поздняя</td>
+                                <td>3+</td>
+                                <td>Цифровые покупки</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table_end_of_inner_container_third_row">
+                        <thead>
+                            <tr>
+                                <th>Разрешения</th>
+                                <th>Отчет</th>
+                                <th>Продавец</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a class="green_link" href="#">Подробнее..</a></td>
+                                <td><a class="green_link" href="#">Пожаловаться</a></td>
+                                <td>Kiloo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="developer_info">
+                    <p class="develober_name">Разработчик</p>
+                    <p class="developer_info_adress"><a class="green_link" href="#">Перейти на веб-сайт</a></p>
+                    <p class="developer_info_adress"><a class="green_link" href="#">Написать: support@kiloo.com</a></p>
+                    <p class="developer_info_adress"><a class="green_link" href="#">Конфиденциальность</a></p>
+                    <p class="developer_info_adress">Kiloo</p>
+                    <p class="developer_info_adress">Klostergade 28, 1. sal</p>
+                    <p class="developer_info_adress">8000 Aarhus C</p>
+                </div>
+                <!--            end of inner container-->
             </div>
-
+            <!--        end of outer container-->
         </div>
-    </div>
 
-    <script src="jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="slick/slick/slick.min.js"></script>
-
-    <script type="text/javascript">
-        function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-        }
-        window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
+        <script src="jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+        <script type="text/javascript">
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
                     }
                 }
             }
-        }
 
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.carousel_group').slick({
-                dots: true,
-                infinite: true,
-                speed: 300,
-                slidesToShow: 1,
-                adaptiveHeight: true
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.carousel_group').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 1,
+                    adaptiveHeight: true
+                });
             });
-        });
 
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".end_of_bottom_section").click(function() {
-                $(".steps_for_game").slideToggle("slow");
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".end_of_bottom_section").click(function() {
+                    $(".steps_for_game").slideToggle("slow");
+                });
             });
-        });
 
-    </script>
+        </script>
+        <script>
+            $(document).ready(function() {
+                $(".btn-info").click(function() {
+                    $(".have_fun_animation").css("color", "red").slideUp(2000).slideDown(2000);
+                });
+            });
 
+        </script>
 </body>
