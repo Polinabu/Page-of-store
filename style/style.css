@@ -26,14 +26,14 @@
 .outer-containet {
     padding-top: 40px;
     margin-left: 186px;
-    height: 1900px;
+    height: 1800px;
     text-align: center;
     background-color: #f1f1f1;
 }
 .inner-container {
     width: 800px;
     text-align: initial;
-    height: 1700px;
+    height: 1600px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 70px;
@@ -369,15 +369,6 @@ img {
     width: 700px;
     border-width: 1px;
     border-color: #c9c9c9;
-}
-.feedback_reaction {
-    background-image: url(../images/screen-shot-rating.png);
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 400px;
-    height: 300px;
-    background-size: cover;
 }
 .new_additions {
     margin-top: 5px;
